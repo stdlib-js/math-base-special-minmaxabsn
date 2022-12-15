@@ -34,30 +34,20 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-minmaxabsn
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var minmaxabsn = require( '@stdlib/math-base-special-minmaxabsn' );
+import minmaxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsn@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsn@esm/index.mjs';
 ```
 
 #### minmaxabsn( \[x\[, y\[, ...args]]] )
@@ -90,7 +80,7 @@ v = minmaxabsn( NaN, 3.14 );
 Returns the minimum and maximum absolute values in a single pass and assigns results to a provided output array.
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 
 var out = new Float64Array( 2 );
 
@@ -125,9 +115,14 @@ var bool = ( v === out );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var minmaxabsn = require( '@stdlib/math-base-special-minmaxabsn' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
+import minmaxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsn@esm/index.mjs';
 
 var x;
 var y;
@@ -140,6 +135,10 @@ for ( i = 0; i < 100; i++ ) {
     v = minmaxabsn( x, y );
     console.log( 'minmaxabs(%d,%d) = [%d, %d]', x, y, v[0], v[1] );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -179,7 +178,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -241,11 +240,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/maxabs]: https://github.com/stdlib-js/math-base-special-maxabs
+[@stdlib/math/base/special/maxabs]: https://github.com/stdlib-js/math-base-special-maxabs/tree/esm
 
-[@stdlib/math/base/special/minabs]: https://github.com/stdlib-js/math-base-special-minabs
+[@stdlib/math/base/special/minabs]: https://github.com/stdlib-js/math-base-special-minabs/tree/esm
 
-[@stdlib/math/base/special/minmax]: https://github.com/stdlib-js/math-base-special-minmax
+[@stdlib/math/base/special/minmax]: https://github.com/stdlib-js/math-base-special-minmax/tree/esm
 
 <!-- </related-links> -->
 
