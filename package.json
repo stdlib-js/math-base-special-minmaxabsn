@@ -50,9 +50,9 @@
     "@stdlib/bench": "^0.1.0",
     "@stdlib/constants-float64-ninf": "^0.1.0",
     "@stdlib/math-base-assert-is-positive-zero": "^0.1.0",
-    "@stdlib/math-base-special-maxabs": "^0.0.6",
-    "@stdlib/math-base-special-minabs": "^0.0.6",
-    "@stdlib/random-base-randu": "^0.0.8",
+    "@stdlib/math-base-special-maxabs": "^0.1.0",
+    "@stdlib/math-base-special-minabs": "^0.1.0",
+    "@stdlib/random-base-randu": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
