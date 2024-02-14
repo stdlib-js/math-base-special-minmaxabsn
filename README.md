@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import minmaxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsn@esm/index.mjs';
+import minmaxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsn@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsn@esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsn@v0.2.0-esm/index.mjs';
 ```
 
 #### minmaxabsn( \[x\[, y\[, ...args]]] )
@@ -133,7 +133,7 @@ var bool = ( v === out );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import minmaxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsn@esm/index.mjs';
+import minmaxabsn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsn@v0.2.0-esm/index.mjs';
 
 var x;
 var y;
