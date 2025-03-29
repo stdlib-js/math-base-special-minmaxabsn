@@ -51,6 +51,7 @@
     "@stdlib/math-base-assert-is-positive-zero": "^0.2.2",
     "@stdlib/math-base-special-maxabs": "^0.3.0",
     "@stdlib/math-base-special-minabs": "^0.2.3",
+    "@stdlib/random-array-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
